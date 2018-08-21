@@ -1,0 +1,40 @@
+img {
+	height: 200px;
+	width: 200px;
+}
+
+h1 {
+	float: left;
+}
+
+.nav {
+	float: right;
+	padding: 25px;
+  background-color: aqua;
+	border: 5px;
+  border-color: darkblue;
+  margin-top: 20px;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: inline;
+}
+
+img {
+	float: left;
+	clear: left;
+}
+
+.about {
+	float: left;
+}
+
+img{
+	float: left;
+}
+
+p {
+	float: left;
+}
